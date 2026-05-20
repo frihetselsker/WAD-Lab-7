@@ -1,6 +1,7 @@
 name: Lab 7
 #TODO The pipeline should be triggered only on push to a "test" branch
 on:
+  # a comment
   push:
     branches:
       - test
