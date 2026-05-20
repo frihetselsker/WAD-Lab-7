@@ -33,6 +33,6 @@ jobs:
 
       # TODO: Run the Jacoco report in the pipeline (Jacoco already exists)
       - name: Run Jacoco report
-        run: ./gradlew jacocoTestReport
+        run: ./gradlew test jacocoTestReport
 
       # TODO: Set GitHub secrets and read them in the pipeline (for the environmentTest)
